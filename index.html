@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Snake Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style="background-color: aqua;">
+    <audio id="audio1">
+        <source src="snakehit.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audio2">
+        <source src="end.mp3" type="audio/mp3">
+    </audio>
+    <h1 class="score">Score:   <span></span></h1>
+    <div id="btn">
+        <button id="pause">Pause</button>
+        <button id="resume">Resume</button> 
+        <button id="reload" onclick=location.reload()>Restart</button>
+    </div>
+    <div class="box">
+        <canvas id="canvas" height="500px" width="550px">Score:</canvas>
+    </div>
+    <div id="over">GAME OVER</div>
+    <script type="text/javascript" src="fruit.js"></script>
+    <script type="text/javascript" src="snake.js"></script>
+</body>
+</html>

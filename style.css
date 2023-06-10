@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.score{
+    /* background: -webkit-linear-gradient(rgb(226, 86, 86), rgb(87, 2, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  */
+    font-size: 48px;
+    text-align: center;
+}
+#btn{
+    text-align: center;
+}
+#pause , #resume{
+    /* background-color: black;
+    color: white; */
+    background: -webkit-linear-gradient(rgb(226, 86, 86), rgb(87, 2, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    outline: none; 
+    cursor: pointer;
+    font-size: 22px;
+    border: none;
+    margin: 0 15px;
+}
+#reload{
+    /* background-color: black;
+    color: white; */
+    background: -webkit-linear-gradient(rgb(226, 86, 86), rgb(87, 2, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    outline: none;
+    cursor: pointer;
+    font-size: 22px;
+    border: none;
+    margin: 0 15px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    margin: 10px;
+    position: relative;
+}
+#over{
+    font-size: 50px;
+    display: flexbox;
+    text-align: center;
+    position: relative;
+    top: -350px;
+    visibility: hidden;
+}
